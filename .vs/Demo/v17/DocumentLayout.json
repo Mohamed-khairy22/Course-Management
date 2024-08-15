@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\dotnet projects\\Demo\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|e:\\dotnet projects\\demo\\demo\\demo\\views\\shared\\_navpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|solutionrelative:demo\\views\\shared\\_navpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|e:\\dotnet projects\\demo\\demo\\demo\\identitysteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|solutionrelative:demo\\identitysteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|e:\\dotnet projects\\demo\\demo\\demo\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|solutionrelative:demo\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|e:\\dotnet projects\\demo\\demo\\demo\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|solutionrelative:demo\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|e:\\dotnet projects\\demo\\demo\\demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|e:\\dotnet projects\\demo\\demo\\demo\\views\\account\\registr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|solutionrelative:demo\\views\\account\\registr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|e:\\dotnet projects\\demo\\demo\\demo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|solutionrelative:demo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|e:\\dotnet projects\\demo\\demo\\demo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|e:\\dotnet projects\\demo\\demo\\demo\\models\\itientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E4D5C96-F2F5-4D91-8E44-3A029191A063}|Demo\\Demo.csproj|solutionrelative:demo\\models\\itientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITIEntity.cs",
+              "DocumentMoniker": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Models\\ITIEntity.cs",
+              "RelativeDocumentMoniker": "Demo\\Models\\ITIEntity.cs",
+              "ToolTip": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Models\\ITIEntity.cs",
+              "RelativeToolTip": "Demo\\Models\\ITIEntity.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:38:43.663Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_NavPartial.cshtml",
+              "DocumentMoniker": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Shared\\_NavPartial.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Shared\\_NavPartial.cshtml",
+              "ToolTip": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Shared\\_NavPartial.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Shared\\_NavPartial.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwCMAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T15:38:20.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Course\\Index.cshtml",
+              "ToolTip": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Course\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T15:41:39.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Instructor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Instructor\\Index.cshtml",
+              "ToolTip": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Instructor\\Index.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Instructor\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T15:38:29.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registr.cshtml",
+              "DocumentMoniker": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Account\\Registr.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Account\\Registr.cshtml",
+              "ToolTip": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Account\\Registr.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Account\\Registr.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T15:33:10.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T15:26:34.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Demo\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Demo\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwCQAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T15:10:53.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\dotnet projects\\Demo\\Demo\\Demo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAADwv0cAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T03:00:22.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IdentitySteps.cs",
+              "DocumentMoniker": "E:\\dotnet projects\\Demo\\Demo\\Demo\\IdentitySteps.cs",
+              "RelativeDocumentMoniker": "Demo\\IdentitySteps.cs",
+              "ToolTip": "E:\\dotnet projects\\Demo\\Demo\\Demo\\IdentitySteps.cs",
+              "RelativeToolTip": "Demo\\IdentitySteps.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T01:44:09.678Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

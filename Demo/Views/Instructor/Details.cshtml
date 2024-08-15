@@ -1,0 +1,24 @@
+﻿@using ITI_task1.Models
+@model Instructor
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Salary</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+        <td>@Model.Id</td>
+        <td>@Model.Name</td>
+        <td>@Model.Image</td>
+        <td>@Model.Salary</td>
+        <td>@Model.Address</td>
+    </tr>
+</table>
+

@@ -1,0 +1,54 @@
+﻿@using ITI_task1.Models
+
+@model List<Instructor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Instructors</h1>
+<h2><a href="/Instructor/AddInst">Add New</a>   </h2>
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>Address</th>
+       @*  <th>Edit</th>
+        <th>Delete</th> *@
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td><a href="#" onclick="GetDetails(@item.Id)">@item.Name</a> </td>
+            <td>@item.Salary</td>
+            <td>@item.Address</td>  
+           @*  <td><a href="/instructor/Edit/@item.Id">Edit</a></td>
+            <td><a href="/instructor/deletion/@item.Id" onclick="return confirm('Are you sure to delete the instructor?')">Detele</a></td>
+        *@ </tr>
+    }
+</table>
+<h1></h1>
+<div id="empDet" style="border:3px solid green">
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script>
+        function GetDetails(instId) {
+            event.preventDefault();
+            console.log(instId)
+            $.ajax(
+                {
+                    url :"/Instructor/Details/"+instId,
+                    success: function (result) {
+                        console.log(result)
+                        document.getElementById("empDet").innerHTML = result;
+                    }
+
+                }
+            );
+        }
+</script>
+}
+

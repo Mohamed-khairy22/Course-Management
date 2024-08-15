@@ -1,0 +1,74 @@
+﻿@using ITI_task1.Models
+@model Instructor
+@{
+    ViewData["Title"] = "AddInst";
+}
+
+<h1>Add New Instructor</h1>
+<form method="post" action="/instructor/saveInst">
+    <div>
+        <label>Name</label>
+        <input type="text" name="Name" value="@Model.Name" class="form form-control" />
+    </div>
+    <div>
+        <label asp-for="Salary"></label>
+        <input class="form form-control" asp-for="Salary"/>
+    </div>
+    <div>
+        <label>Address</label>
+        <input type="text" name="Address" value="@Model.Address" class="form form-control" />
+    </div>
+    <div>
+        <label>Image</label>
+        <input type="text" name="Image" value="@Model.Image" class="form form-control" />
+    </div>
+    <div>
+        <label>Department</label>
+        <select name="deptId" id="deptId" class="form form-control" onchange="getCrs()">
+            <option value="0" selected>--- Select Department ---</option>
+
+            @foreach (Department1 dept in ViewBag.depList)
+            {
+                if (Model.deptId == dept.Id)
+                {
+                    <option value="@dept.Id" selected>@dept.Name</option>
+                }
+                else
+                {
+                    <option value="@dept.Id" sel>@dept.Name</option>
+                }
+            }
+        </select>
+        <label>Course</label>
+        <select name="crsId" id="crsId" class="form form-control">
+            <option value="0" selected>--- Select a Course ---</option>
+
+           
+        </select>
+    </div>
+
+    <input type="submit" value="Save" />
+</form>
+
+@section Scripts{
+    <script>
+        function getCrs() {
+            var deptID = document.getElementById("deptId").value;
+            // console.log(deptID);
+            $.ajax(
+                {
+                    url: "/Instructor/showCrsPerDept",
+                    data: { "deptId": deptID },
+                    success: function (result) {
+                        console.log(result)
+                        document.getElementById("crsId").innerHTML = "--- Select a Course ---   ";
+                        for (let Course of result) {
+                            document.getElementById("crsId").innerHTML += " <option value='" + Course.id + "' > " + Course.name + " </option>";
+                        }
+                    }
+
+                }
+            );
+        }
+    </script>
+}

@@ -1,0 +1,41 @@
+﻿@using ITI_task1.Models
+@model List<Department1>
+@{
+    ViewData["Title"] = "ShowInstsInOneDept";
+    SelectList depts = new SelectList(Model,"Id","Name");
+
+}
+
+<h1>ShowInstsInOneDept</h1>
+<select name="dept" id="dept" class="form-control" asp-items="depts" onchange="GetInstructors()">
+    <option value="0" selected>--- Select a Department ---</option>
+</select>
+<br>
+
+</br>
+<select name="insts" id="insts" class="form-control">
+
+</select>
+@section Scripts{
+    <script>
+        function GetInstructors() 
+        { 
+            var deptID = document.getElementById("dept").value;
+           // console.log(deptID);
+            $.ajax(
+                {
+                    url: "/Instructor/showInstPerDept",
+                    data: {"deptId":deptID},
+                    success: function (result) {
+                        console.log(result)
+                        document.getElementById("insts").innerHTML = "";
+                        for (let inst of result) {
+                            document.getElementById("insts").innerHTML +=" <option value='"+inst.id+"' > "+inst.name+" </option>";
+                        }
+                    }
+
+                }
+            );
+        }
+    </script>
+}

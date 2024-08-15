@@ -1,0 +1,24 @@
+﻿@using Demo.ViewModel
+@model List<TrineeViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Trinee ID</th>
+        <th>Trainee Name</th>
+        <th>CrsName</th>
+        <th>TraineeGrade</th>
+    </tr>
+    @foreach (TrineeViewModel item in Model)
+    {
+    <tr style="color:@item.TextColor">
+        <td>@item.TraineeId</td>
+        <td>@item.TraineeName</td>
+        <td>@item.CrsName</td>
+        <td>@item.TraineeGrade</td>
+    </tr>
+    }
+</table>

@@ -1,0 +1,22 @@
+﻿@using Demo.ViewModel
+@model TrineeViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Trinee ID</th>
+        <th>Trainee Name</th>
+        <th>CrsName</th>
+        <th >TraineeGrade</th>
+    </tr>
+    <tr style="color:@Model.TextColor">
+        <td>@Model.TraineeId</td>
+        <td>@Model.TraineeName</td>
+        <td>@Model.CrsName</td>
+        <td>@Model.TraineeGrade</td>
+    </tr>
+</table>
+

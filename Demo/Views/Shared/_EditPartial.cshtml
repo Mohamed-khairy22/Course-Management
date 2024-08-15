@@ -1,0 +1,12 @@
+﻿@using ITI_task1.Models
+@model Instructor
+
+<div class="card" style="width:400px">
+    <img class="card-img-top" src="/Images/@Model.Image" alt="Card image" style="width:100%">
+    <div class="card-body">
+        <h4 class="card-title">@Model.Name</h4>
+        <p class="card-text"> Address: @Model.Address - Salary = @Model.Salary</p>
+        <a href="/Instructor/Edit/@Model.Id" class="btn btn-primary">Edit</a>
+        <a href="/instructor/deletion/@Model.Id" onclick=" return confirm(' Do you want to delete')" class="btn btn-primary ">Delete</a>
+    </div>
+</div>
